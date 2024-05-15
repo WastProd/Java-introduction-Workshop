@@ -26,18 +26,16 @@ Une fois votre projet crée, votre IDE va automatiquement créer les fichiers de
 
 ![exemple d'un run basique d'un sys.out.println()](https://cdn.discordapp.com/attachments/1239922406626430996/1239926117398220841/image.png?ex=6644b2af&is=6643612f&hm=f8950349d0aa5d3bf683fbafacc2350e26f2620530620168251d8098ac4f43a1&)
 
-### Exercice 2 : Contrôle de Flux Avancé
-- **Objectif** : Écrire un programme qui utilise des boucles et des conditions pour simuler un système simple de login où l'utilisateur a trois tentatives pour entrer le bon mot de passe.
-- **Concepts** : Boucles `while`, conditions, comparaison de chaînes.
+### Exercice 2 : Premier objet
+- **Objectif** : Créez une classe "Car" avec un attribut "wheels" que vous définissez à 4 par défaut. Créez un getter de "wheels" dans la classe "Car".
+- **Comment tester ?** : Créez un objet "Car" dans votre main et afficher le résultat du getter de l'argument "wheels".
 
-### Exercice 3 : Gestion des Tableaux
-- **Objectif** : Créer un tableau d’objets `Etudiant` et écrire une méthode qui calcule la moyenne des notes des étudiants.
-- **Concepts** : Tableaux d'objets, boucles, méthodes.
+### Exercice 3 : Interface et héritage
+- **Objectif** : Créer une interface "Vehicle" avec une methode "getWheels" qui retourne un int. Modifiez la classe "Car" pour qu'elle hérite de l'interface "Vehicle" (faites les modification en conséquences)
 
-### Exercice 4 : Héritage
-- **Objectif** : Définir une classe de base `Véhicule` et des classes dérivées telles que `Voiture` et `Moto` qui héritent de `Véhicule` et ajoutent des fonctionnalités spécifiques.
-- **Concepts** : Héritage, super(), classes et méthodes.
+### Exercice 4 : Interêt du Polymorphisme
+- **Objectif** : Créez une deuxieme class qui hérite de l'interface "Vehicle" nommée "Truck" (avec 6 roues par exemple) puis créez une liste de type ArrayList dans votre main qui contient des objets d'interface "Vehicle".
+- **Comment tester ?** : Créez des objets truck et car dans votre main, insérez les dans la liste et affichez leurs attributs en utilisant l'interface.
 
-### Exercice 5 : Interfaces et Polymorphisme
-- **Objectif** : Créer une interface `Forme` avec une méthode `calculerAire()` et implémenter cette interface dans les classes `Cercle` et `Rectangle`.
-- **Concepts** : Interfaces, implémentation, polymorphisme.
+### Exercice 5 : Déconstruction
+- **Objectif** : Créez un niveau d'héritage suplémentaire (ex: interface Car & Truck qui hérite de Vehicule) puis créez une classe pour les différents modèles de voitures/camions. Dans votre boucle, trouvez le moyen de différenciez les interfaces "Car" des "Truck".
