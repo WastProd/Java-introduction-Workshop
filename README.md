@@ -1,5 +1,5 @@
 
-# Introduction à Java pour Débutants - Version Avancée
+# Introduction à Java et ses avantages par rapport au CPP
 
 Ce workshop est conçu pour vous initier au développement java et notament une introduction à la reflection d'objet (ce qui n'est pas possible en CPP).
 Il est conseillé d'utiliser un IDE comme IntelliJ ou Eclipse si vous voulez approfondir vos connaissances, *VSCode n'est pas fait pour les langages orienté objet.
