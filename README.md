@@ -39,3 +39,6 @@ Une fois votre projet crée, votre IDE va automatiquement créer les fichiers de
 
 ### Exercice 5 : Déconstruction
 - **Objectif** : Créez un niveau d'héritage suplémentaire (ex: interface Car & Truck qui hérite de Vehicule) puis créez une classe pour les différents modèles de voitures/camions. Dans votre boucle, trouvez le moyen de différenciez les interfaces "Car" des "Truck".
+
+### Exercice 6 : Finitions
+- **Objectif** : Créez des méthodes de mouvements (ex: goFoward, goBackward, turnRight..) et une classe ENUM nommée "Direction" dans une classe Abstraite pour vos véhicules. L'objectif est d'implementer un système de véhicule complètement générique. (Cet exercice ne suit pas forcément l'archtechture des précédents)
